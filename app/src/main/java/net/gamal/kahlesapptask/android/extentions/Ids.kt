@@ -1,6 +1,6 @@
 package net.gamal.kahlesapptask.android.extentions
 
-typealias PetFinderId=net.gamal.kahlesapptask.R.id
-typealias PetFinderDrawable=net.gamal.kahlesapptask.R.drawable
-typealias PetFinderColor=net.gamal.kahlesapptask.R.color
-typealias PetFinderString=net.gamal.kahlesapptask.R.string
+typealias PostFinderId=net.gamal.kahlesapptask.R.id
+typealias PostFinderDrawable=net.gamal.kahlesapptask.R.drawable
+typealias PostFinderColor=net.gamal.kahlesapptask.R.color
+typealias PostFinderString=net.gamal.kahlesapptask.R.string

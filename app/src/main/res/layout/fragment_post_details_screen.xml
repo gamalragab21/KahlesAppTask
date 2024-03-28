@@ -73,11 +73,11 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:fontFamily="@font/poppins_bold"
-                            android:text="@string/name"
+                            android:text="Userd ID"
                             android:textSize="@dimen/_15ssp" />
 
                         <TextView
-                            android:id="@+id/pet_name_value"
+                            android:id="@+id/user_id_value"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -108,11 +108,11 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:fontFamily="@font/poppins_bold"
-                            android:text="@string/gender"
+                            android:text="ID"
                             android:textSize="@dimen/_15ssp" />
 
                         <TextView
-                            android:id="@+id/pet_gender_value"
+                            android:id="@+id/post_id_value"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -143,11 +143,11 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:fontFamily="@font/poppins_bold"
-                            android:text="@string/type"
+                            android:text="Title"
                             android:textSize="@dimen/_15ssp" />
 
                         <TextView
-                            android:id="@+id/pet_type_value"
+                            android:id="@+id/post_title_value"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -177,11 +177,11 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:fontFamily="@font/poppins_bold"
-                            android:text="@string/size"
+                            android:text="Body"
                             android:textSize="@dimen/_15ssp" />
 
                         <TextView
-                            android:id="@+id/pet_size_value"
+                            android:id="@+id/post_body_value"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -191,40 +191,6 @@
                             android:maxLines="1"
                             android:textSize="@dimen/_15ssp"
                             tools:text="15 cm" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/layout_pet_address"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:weightSum="2"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/layout_pet_type">
-
-                        <TextView
-                            android:id="@+id/pet_address_title"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:fontFamily="@font/poppins_bold"
-                            android:text="@string/address"
-                            android:textSize="@dimen/_15ssp" />
-
-                        <TextView
-                            android:id="@+id/pet_address_value"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:ellipsize="end"
-                            android:fontFamily="@font/poppins_regular"
-                            android:maxEms="20"
-                            android:maxLines="1"
-                            android:textSize="@dimen/_15ssp"
-                            tools:text="City,State,Country" />
 
                     </LinearLayout>
 

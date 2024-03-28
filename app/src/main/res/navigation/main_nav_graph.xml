@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/entryPointFragment"
-        android:name="net.soft.petFinder.ui.fragments.entryPoint.EntryPointFragment"
+        android:name="net.gamal.kahlesapptask.ui.fragments.entryPoint.EntryPointFragment"
         android:label="EntryPointFragment"
         tools:layout="@layout/fragment_entry_point">
         <action
