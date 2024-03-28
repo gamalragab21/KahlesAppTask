@@ -1,4 +1,4 @@
-package net.soft.features.GetPostsUC.di
+package net.gamal.kahlesapptask.features.getPosts.di
 
 import dagger.Module
 import dagger.Provides
